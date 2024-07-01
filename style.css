@@ -571,7 +571,7 @@ color:  #45525B;
     gap: 30px; 
   } 
   .fuoter_button { 
-    position: absolute; 
+    position: absolute;
     font-size: 16px; 
     font-weight: 400; 
     line-height: 22.4px; 
@@ -588,4 +588,7 @@ color:  #45525B;
     width: 450px; 
     height: 40px; 
     border-radius: 5px; 
+  }
+  .box7{
+    position: relative;
   }
