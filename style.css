@@ -583,7 +583,15 @@ color:  #45525B;
     .text__1{
         text-align: center;
     }
-    
+    .foter_text2, .fuoter_text, .fuoter_text1{
+        text-align: center;
+    }
+    .fuoter_box{
+        flex-direction: column;
+    }
+    .fuoter_img{
+        justify-content: center;
+    }
     .text__2{
       font-size: 25px !important;
       line-height: 30px !important;
