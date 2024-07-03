@@ -14,7 +14,9 @@
   </head>
   <body>
     <nav>
-      <img class="nav__burger" src="/crs/hero__bunker.svg" alt="menu" />
+      <button class="nav__burger">
+        <img src="/crs/hero__bunker.svg" alt="menu" />
+      </button>
       <img src="/crs/IMAGE569.svg" alt="Estate" />
       <ul class="nav_list">
         <li><a href="">Listings</a></li>
@@ -25,6 +27,20 @@
 
         <li><a href="">Our team</a></li>
       </ul>
+      <div class="modal modalToggle" id="modal">
+        <div class="overlay">
+          <button class="nav__close" onclick="modalToggle()">X</button>
+          <ul class="nav_list2">
+            <li><a href="">Listings</a></li>
+
+            <li><a href="">Newsroom</a></li>
+
+            <li><a href="">Contact</a></li>
+
+            <li><a href="">Our team</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <section class="hero">
       <img
@@ -500,6 +516,7 @@
         </div>
       </div>
     </footer>
+
     <script src="./script.js"></script>
   </body>
 </html>

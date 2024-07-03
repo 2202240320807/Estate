@@ -3,6 +3,12 @@ section {
   margin: 0;
   padding: 0;
 }
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -15,6 +21,7 @@ a {
   text-decoration: none;
 }
 nav {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -516,7 +523,11 @@ section {
   .current {
     padding: 10px !important;
   }
+  .modalToggle {
+    display: none;
+  }
   .current__box {
+    margin: 0 auto;
     width: 320px !important;
   }
   .current__text {
@@ -624,5 +635,28 @@ section {
   }
   .current__item {
     text-align: center;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+    width: 100vw;
+    padding-left: 40px;
+    padding-top: 40px;
+    height: 100vh;
+  }
+  .nav__close {
+    color: white;
+  }
+  .nav_list2 a,
+  .nav__close {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .modalToggle {
+    position: relative;
   }
 }
